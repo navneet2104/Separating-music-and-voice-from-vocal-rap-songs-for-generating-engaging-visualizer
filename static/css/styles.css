@@ -1,0 +1,80 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#071e24; color:#fff; font:10px/14px Tahoma, Geneva, sans-serif}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#fff; text-decoration:underline;}
+p a:hover{ color:#fff; text-decoration:none;}
+
+.headline{font:12px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#15d2ef; font-weight:bold}
+
+#container{width:775px; position:relative; margin:0 auto;}
+
+/* HEADER */
+
+#header{width:775px; height:301px; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+#header img#logo{position:absolute; top:175px; left:104px}
+
+#header ul.menu{position:absolute; top:27px; left:102px; width:600px}
+#header ul.menu li{height:51px; margin-right:23px; float:left}
+#header ul.menu li a{height:51px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{height:51px;}
+
+#header ul.menu li.btn_1 a{width:58px; background:url(../images/btn_1.jpg) 0 14px no-repeat; }
+#header ul.menu li.btn_1 a:hover{width:58px; background:url(../images/btn_1_over.jpg) 0 14px no-repeat;}
+
+#header ul.menu li.btn_2 a{width:66px; background:url(../images/btn_2.jpg) 0 14px no-repeat; }
+#header ul.menu li.btn_2 a:hover{width:66px; background:url(../images/btn_2_over.jpg) 0 14px no-repeat;}
+
+#header ul.menu li.btn_3 a{width:84px; background:url(../images/btn_3.jpg) 0 14px no-repeat; }
+#header ul.menu li.btn_3 a:hover{width:84px; background:url(../images/btn_3_over.jpg) 0 14px no-repeat;}
+
+#header ul.menu li.btn_4 a{width:89px; background:url(../images/btn_4.jpg) 0 14px no-repeat; }
+#header ul.menu li.btn_4 a:hover{width:89px; background:url(../images/btn_4_over.jpg) 0 14px no-repeat;}
+
+#header ul.menu li.btn_5{margin-right:0}
+#header ul.menu li.btn_5 a{width:89px; background:url(../images/btn_5.jpg) 0 14px no-repeat; }
+#header ul.menu li.btn_5 a:hover{width:89px; background:url(../images/btn_5_over.jpg) 0 14px no-repeat;}
+
+#header ul.menu li.line{width:1px; background:url(../images/linem.gif) 0 0 no-repeat}
+
+/* CONTENT */
+
+#content{width:675px; position:relative; clear:both; margin: 0 auto}
+
+#leftPan{width:400px; float:left; margin:31px 40px 0 43px; display:inline}
+#rightPan{width:155px; float:left; margin:35px 0 0 0;}
+
+#welcome{margin-bottom:24px}
+#welcome h2{height:25px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:8px}
+#welcome img{float:left; margin-right:15px; margin-left:4px; display:inline}
+#welcome p{float:left; width:240px}
+#welcome p span{display:block; margin-bottom:10px; padding-top:3px}
+
+#about h2{height:25px; position:relative; background:url(../images/h_about.gif) 0 0 no-repeat; margin-bottom:8px}
+#about img{float:left; margin-right:15px; margin-left:4px; display:inline}
+#about p{float:left; width:240px}
+#about p span{display:block; margin-bottom:10px; padding-top:3px}
+
+#about ul {margin-left:12px; clear:both; margin-top:15px}
+#about ul li{font:10px/14px Tahoma, Geneva, sans-serif; background:url(../images/arrow.gif) 0 4px no-repeat; padding-left:18px; height:20px;}
+#about ul li a{color:#15d2ef; text-decoration:underline;}
+#about ul li a:hover{color:#fff; text-decoration:none;}
+
+#news{margin-bottom:10px}
+#news h2{height:21px; position:relative; background:url(../images/h_news.gif) 0 0 no-repeat; margin-bottom:10px}
+#news p{margin-bottom:20px}
+
+#shows h2{height:21px; position:relative; background:url(../images/h_shows.gif) 0 0 no-repeat; margin-bottom:10px}
+#shows p span{display:block; margin-bottom:10px; padding-top:3px}
+
+.clear#end{height:20px}
+
+/* FOOTER */
+
+#footer{width:775px; height:53px; clear:both; background:url(../images/b_footer.gif) 0 0 no-repeat }
+#footer p{padding: 12px 0 0 0; font:11px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#fff;}
+#footer p a{font:11px/16px Tahoma, sans-serif; font-weight:normal; color:#fff; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#fff}

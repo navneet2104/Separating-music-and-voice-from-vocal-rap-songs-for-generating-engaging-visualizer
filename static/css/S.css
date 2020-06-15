@@ -1,0 +1,131 @@
+/* CSS Document by Dieter Schneider 2006 www.csstemplateheaven.com */
+
+* {margin: 0;
+   padding: 0;
+}
+
+/*********************************** Site Structure ******************************/
+
+body {
+
+	background-image: url(/static/images/4.gif);
+	font-size: 62.5%;
+	background-color: black;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#container {margin: 10px auto;
+            width: 729px;
+			font-size: 1.2em;}
+
+#header-{
+	background-image: url(/static/images/header_bg.jpg);
+	height: 186px;
+	width: 670px;
+	padding-top: 214px;
+	padding-left: 59px;
+}
+
+#content_top {
+	background-image: url(/static/images/content_top.jpg);
+	height: 120px;
+	width: 529px;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+#content {
+	background-image: url(/static/images/content_tile.jpg);
+	background-repeat: repeat-y;
+	padding-left: 60px;
+    padding-right: 60px;	
+}
+
+#footer {
+	background-image: url(/static/images/footer.jpg);
+	background-repeat: no-repeat;
+	height: 211px;
+	text-align: center;
+}
+
+/********************************** Text formatting *****************/
+
+
+p {
+   padding-bottom: 25px;
+}
+
+
+p.text:first-letter
+{
+font-size: 2.5em;
+padding: 0.143em;
+float: left;
+}
+
+.footertxt {
+	padding-top: 180px;
+	color: #F1DBC6;
+}
+
+h2 {
+	font-weight: bold;
+	padding: 10px;
+	color: #673711;
+	font-size: 1.2em;
+}
+
+/*************************** Hyperlinks ***********************/
+
+a:link {color: #F1DBC6}     /* unvisited link */
+a:visited {color: #F1DBC6}  /* visited link */
+a:hover {color: #FFCC66}   /* mouse over link */
+a:active {color: #FFFFFF}   /* selected link */
+
+/***************************  Navigation **********************/
+
+#navlist
+{
+width: 210px;
+text-align: center;
+}
+
+#navlist li
+{
+	list-style: none;
+	padding-bottom: 18px;
+	font-weight: bold;
+}
+
+#navlist li a { text-decoration: none; }
+
+/************************************ Image Headings ******************************/
+
+#heading_piano {
+	background-image: url(/static/images/heading_the_piano.png);
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#heading_about {
+	background-image: url(/static/images/header_bg.jpg);
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#heading_ipsum {
+    background-image: url(/static/images/girls-singing3.jpg);
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.invisible_headings {
+	margin-left: -3000px; /* This is used to remove the original heading*/
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <script type="text/javascript" src="/static/js/js1.js"></script>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/st.css') }}">
+		
+	</head>
+	<body>
+		 <div id="content">
+    
+    <label for="thefile" class="file"> Choose an audio file
+      <input type="file" id="thefile" accept="audio/*" />
+    </label>
+
+    <audio id="audio" controls></audio>
+    <div id="out"></div>
+         </div>
+	</body>
+	</html>

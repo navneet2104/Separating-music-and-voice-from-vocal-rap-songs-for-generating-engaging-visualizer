@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>voice Mixing Recording</title>
+        <link rel="stylesheet" href="/static/css/1.css" >
+
+
+</head>
+<body>
+
+
+<!-- partial:index.partial.html -->
+<div class="app">
+  <select name="" id="micSelect"></select>
+
+  <select id="visSelect">
+    <option value="frequencybars">Bar</option>
+    <option value="sinewave">Wave</option>
+    <option value="circle">Circle</option>
+  </select>
+
+  <a id="download" >Download</a>
+
+  <div class="audio-controls">
+    <button id="record">Record</button>
+    <button id="stop">Stop</button>
+    <audio id="audio" controls></audio>
+  </div>
+
+  <div id="msg">Recording...</div>
+  <canvas width="500" height="300"></canvas>
+<div>
+<!-- partial -->
+  <script  src="/static/js/2.js"></script>
+</div>
+</div>
+<center>
+<form action="/a" method="post">
+<div id="content">
+        <input type="file" id="firstfile" name="firstfile" accept="audio/-w" />
+            <input type="file" id="secondfile" name="secondfile" accept="audio/-w" />
+
+    <button type="submit">click here</button>
+</div>
+  </form>
+</center>
+</body>
+</html>
+

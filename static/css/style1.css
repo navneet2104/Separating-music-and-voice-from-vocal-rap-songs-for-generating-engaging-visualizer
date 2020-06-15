@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+#circlecnv{
+    z-index: -1;
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+.topBar{
+    position: relative;
+    padding: 0;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    color: white;
+}
+#topcnv{
+    z-index: -1;
+    position: absolute;
+    z-index: -1;
+    padding: 0;
+    display: block;
+    top: 0;
+    left: 0;
+    margin:auto;
+    opacity: .65;
+}
+.visualizer{
+    width: 1024px;
+    height: 350px;
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}

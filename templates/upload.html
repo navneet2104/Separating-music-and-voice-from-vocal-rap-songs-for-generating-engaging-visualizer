@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>The Piano</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="/static/css/S.css" />
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <div id="navcontainer">
+    </div>
+  </div>
+  <div id="content_top">
+    <h1 id="heading_piano"><span class="invisible_headings">The Music</span></h1>
+    <h2>Music is the divine way to tell beautiful, poetic things to the heart.</h2>
+  </div>
+  <center>
+  <div id="content">
+    <h3 id="heading_about"><span class="invisible_headings">SEPARATION</span></h3>
+     <br>
+<br>
+<br>
+     <form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+
+          <span><strong>Files:</strong><br></span>
+    <input id="file-picker" type="file" name="file" accept="audio/*" multiple>
+    <div id="msg"></div>
+    <input type="submit" value="Upload!" id="upload-button">
+</form>
+<br>
+<br>
+<br>
+<br>
+    <h3 id="heading_ipsum"><span class="invisible_headings">UPLOADING FILES</span></h3>
+    <br>
+<br>
+<br>
+<br>
+    <form action="/admin" method="post">
+
+
+          <p><span class="headline">play and visualize the songs that have been seperated into music and vocals</span> </p>
+          <button type="submit" class="btn">Click here</button>
+</form>
+  </div>
+</center>
+  <div id="footer">
+    <p class="footertxt">Created by Navneet Agarwal Intern at Leadingindia.ai | <a href="https://www.leadingindia.ai/">Leadingindia.ai</a></p>
+  </div>
+</div>
+</body>
+<script>
+
+    $("#file-picker").change(function(){
+
+        var input = document.getElementById('file-picker');
+
+
+
+
+    } );
+
+</script>
+</html>

@@ -28,6 +28,7 @@ Install the dependencies and devDependencies and start the server.
 $ cd seaparation of music and voice
 $ pip install pytorch
 $ pip install flask
+$ pip install pydub
 ```
 
 For production environments...
@@ -60,3 +61,23 @@ $ cd voice
 ```sh
 $ python app.py
 ```
+Contributions
+
+
+Navneet agarwal(https://github.com/navneet2104)
+
+suryapal Singh(https://github.com/mespsar)
+
+Vishal Shashikant Bhandari
+
+
+Under the Guidance of :  Dr. Sridhar Swaminathan 
+
+
+ Blog by navneet agarwal:
+
+https://medium.com/@navneet.agarwal.97521/separation-of-music-and-voice-using-deep-learning-ef322ba00d50
+
+Youtube vide:
+
+comming soon
